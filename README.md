@@ -42,7 +42,7 @@ This project was developed as part of the **Diploma in Information Technology** 
 - [Proposal Document](proposal%20document)  
 - [System Analysis and Design Document](system%20analysis%20and%20design%20document)  
 - [Final Project Documentation (PDF)](pharmacy_management_system_ICT_PROJECT.pdf)  
-- [Final Project Documentation (Word)](pharmacy_management_system_ICT_PROJECT.docx)  
+- [Final Project Documentation (Word)](pharmacy_management_system_ICZ_PROJECT.docx)  
 
 ---
 
