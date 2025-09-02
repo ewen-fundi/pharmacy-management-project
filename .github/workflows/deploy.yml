@@ -1,0 +1,27 @@
+name: Deploy to 000webhost
+
+on:
+  push:
+    branches: [ "main" ]   # adjust if your default branch is 'master'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./      # root of your repo
+          server-dir: /public_html
+          exclude: |
+            **/.git*
+            **/.github/*
+            **/node_modules/**
+            **/*.md
