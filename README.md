@@ -5,6 +5,8 @@ A web-based system developed to automate pharmacy operations such as prescriptio
 This project was developed as part of the **Diploma in Information Technology** at **JKUAT (2025)**.
 
 ---
+## youtube video link
+[![Watch the demo video](https://img.youtube.com/vi/0hXDpwVq4MA/0.jpg)](https://youtu.be/0hXDpwVq4MA)
 
 ## 🎯 Objectives
 - Design and implement a Pharmacy Management System  
